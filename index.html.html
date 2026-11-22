@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4e9">
+  <title>محصولات طبیعی و دست‌ساز</title>
+  <meta name="description" content="محصولات طبیعی و دست‌ساز برای درخشش پوست شما">
+  <style>
+    :root {
+      --cream: #f7f4e9;
+      --green: #dce9d7;
+      --dark-green: #385847;
+      --text: #26342b;
+      --muted: #6b756d;
+      --white: #fffefa;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--cream);
+      font-family: Tahoma, Arial, sans-serif;
+      line-height: 1.9;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(1120px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    header {
+      padding: 22px 0;
+      border-bottom: 1px solid rgba(56, 88, 71, .12);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      color: var(--dark-green);
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 22px;
+      border-radius: 999px;
+      background: var(--dark-green);
+      color: white;
+      font-weight: 700;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      gap: 52px;
+      padding: 76px 0 84px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 5px 14px;
+      border-radius: 999px;
+      background: var(--green);
+      color: var(--dark-green);
+      font-size: .88rem;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      color: var(--dark-green);
+      font-size: clamp(2rem, 5vw, 3.7rem);
+      line-height: 1.45;
+    }
+
+    .intro {
+      max-width: 540px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .hero .button { margin-top: 12px; }
+
+    .visual {
+      min-height: 390px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 48% 48% 24px 24px;
+      background:
+        radial-gradient(circle at 48% 40%, #fffefa 0 18%, transparent 19%),
+        linear-gradient(145deg, #e7eddb, #cbdcc6);
+      color: var(--dark-green);
+      text-align: center;
+    }
+
+    .visual-inner {
+      padding: 30px;
+    }
+
+    .leaf {
+      display: block;
+      font-size: 5rem;
+      line-height: 1.2;
+    }
+
+    .visual p { margin: 8px 0 0; }
+
+    .section {
+      padding: 58px 0;
+      background: var(--white);
+    }
+
+    .section h2 {
+      margin: 0 0 8px;
+      color: var(--dark-green);
+      font-size: 1.8rem;
+    }
+
+    .section-lead {
+      margin: 0 0 28px;
+      color: var(--muted);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .feature {
+      padding: 24px;
+      border: 1px solid #e9ece3;
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .feature .icon { font-size: 1.6rem; }
+    .feature h3 { margin: 8px 0 4px; color: var(--dark-green); }
+    .feature p { margin: 0; color: var(--muted); font-size: .94rem; }
+
+    .contact {
+      padding: 48px 0;
+      text-align: center;
+    }
+
+    .contact h2 { color: var(--dark-green); }
+    .contact p { color: var(--muted); }
+
+    footer {
+      padding: 20px;
+      border-top: 1px solid rgba(56, 88, 71, .12);
+      color: var(--muted);
+      text-align: center;
+      font-size: .88rem;
+    }
+
+    @media (max-width: 700px) {
+      .links { gap: 12px; font-size: .82rem; }
+      .links a:nth-child(2) { display: none; }
+      .hero { grid-template-columns: 1fr; gap: 30px; padding: 48px 0; }
+      .visual { min-height: 280px; }
+      .features { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container" aria-label="منوی اصلی">
+      <a class="brand" href="#">نام برند شما</a>
+      <div class="links">
+        <a href="#about">درباره ما</a>
+        <a href="#features">ویژگی محصولات</a>
+        <a class="button" href="#contact">ارتباط با ما</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <span class="eyebrow">مراقبت طبیعی، با عشق ساخته‌شده</span>
+        <h1>محصولات طبیعی و دست‌ساز برای درخشش پوست شما</h1>
+        <p class="intro">
+          با ترکیبات الهام‌گرفته از طبیعت و ساخت دست‌ساز، مراقبتی ساده و دلنشین
+          را به برنامهٔ روزانهٔ پوستتان اضافه کنید.
+        </p>
+        <a class="button" href="#features">با محصولات ما آشنا شوید</a>
+      </div>
+
+      <div class="visual" role="img" aria-label="تصویر تزئینی با حال‌وهوای طبیعت">
+        <div class="visual-inner">
+          <span class="leaf">🌿</span>
+          <strong>سادگیِ طبیعت</strong>
+          <p>مراقبتی آرام و دوست‌داشتنی</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>مراقبت از پوست، با نگاهی طبیعی</h2>
+        <p class="section-lead">محصولات دست‌ساز با توجه به جزئیات و کیفیت آماده می‌شوند.</p>
+
+        <div class="features" id="features">
+          <article class="feature">
+            <span class="icon">🍃</span>
+            <h3>الهام‌گرفته از طبیعت</h3>
+            <p>معرفی ترکیبات و ویژگی هر محصول با توضیحات روشن و دقیق.</p>
+          </article>
+          <article class="feature">
+            <span class="icon">🧼</span>
+            <h3>ساخت دست‌ساز</h3>
+            <p>محصولاتی با حال‌وهوای صمیمی و توجه به جزئیات ساخت.</p>
+          </article>
+          <article class="feature">
+            <span class="icon">♡</span>
+            <h3>با عشق آماده‌ش
